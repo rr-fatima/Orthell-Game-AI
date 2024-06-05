@@ -28,3 +28,12 @@ game is over (i.e. a win or a draw), a message is printed and the program termin
 
 The method for the computer to make a move is as follows:
 
+Evaluate All Possible Moves: The computer evaluates each potential move it could make by considering all empty squares on the board.
+
+Simulate Each Move and Apply Minimax: For each candidate position, the computer simulates the move on a temporary board and uses the Minimax algorithm to recursively evaluate the resulting board state up to a fixed depth. This involves alternating between maximizing the computer's score and minimizing the opponent's score for subsequent moves.
+
+Calculate the Evaluation Score: The evaluation score for each simulated board state is calculated based on factors such as mobility (number of valid moves available), control of ideal positions (favoring center and edge tiles), and the number of pieces owned by each player.
+
+Track the Best Move: While calculating the evaluation scores, the computer keeps track of the highest score encountered. It records both the score and the corresponding position.
+
+Choose the Move with the Highest Score: After evaluating all possible moves using the Minimax algorithm, the computer selects the move corresponding to the highest evaluation score. This position is deemed the best move because it maximizes the strategic advantage according to the evaluation criteria.
