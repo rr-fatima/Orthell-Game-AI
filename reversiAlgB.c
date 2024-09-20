@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "orthelloAlgB.h"
+#include "reversiAlgB.h"
 
 int countPieces(char board[][26], int n);
 int countMobility(char board[][26], int n, char colour);

@@ -1,9 +1,9 @@
-# Orthell-Game-AI
+# Reversi-Game-AI
 
-It is an orthello game, also commonly known as reversi. 
+It is a reversi game, also commonly known as othello. 
 
 <br>
-Orthello is played on a board that has dimensions n × n, where n is even and ranges from 4 to 26. 
+Reversi is played on a board that has dimensions n × n, where n is even and ranges from 4 to 26. 
 The game uses tiles that are white on one side, and black on the other side
 (they can be “flipped” over to change their colour). One player plays white; the other player plays black. 
 
